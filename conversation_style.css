@@ -1,0 +1,285 @@
+
+body{
+    font-size: 100% 
+}
+
+
+
+
+/* ------------- Outline stuff ----------*/
+
+
+/* background rectangle */
+
+.square {
+  height: 2500px;
+  width: 400px;
+  background-color: #555;
+  opacity: 0.05;
+  margin-left: 35%;
+  
+  position: absolute;
+ margin-top: -400;
+  z-index: -100;
+
+}
+
+
+
+/* Title */
+h1{ 
+    font-size:129.442;
+    text-align: center; 
+    font-family: jaf-herb, serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 5% ;
+    padding-right: 5%;
+    margin-top: 200;
+    margin-bottom: 300;
+    word-spacing: 4px;
+}
+
+/* where our speaking bubbles are*/
+.ethandiv_intro{
+    margin-top: -52;
+    padding-left: 35%;
+    padding-right: 35%;
+    
+}
+
+.krisdiv_intro{
+    margin-top: -52;
+    padding-left: 50%;
+    padding-right: 20%;
+    
+}
+
+.mikediv_intro{
+    margin-top: -52;
+    padding-left: 25%;
+    padding-right: 50%; 
+    
+}
+
+
+
+.ethandiv_1{
+    margin-top: -22;
+    padding-left: 30%;
+    padding-right: 42%;
+    z-index: 2;
+     transform: rotate(10deg);
+    
+}
+
+.krisdiv_shout1{
+    font-size: 60px;
+    margin-top: 60;
+    padding-left: 45%;
+    padding-right: 20%;
+    z-index: 1;
+    transform: rotate(-10deg);
+    
+}
+
+.mikediv_1{
+    font-size: 350%;
+    margin-top: -52;
+    padding-left: 65%;
+    padding-right: 10%; 
+    z-index: 3;
+}
+.krisdiv_1{
+    margin-top: -52;
+    padding-left: 55%;
+    padding-right: 20%;
+    z-index: 2; 
+    
+}
+
+
+
+
+
+
+.wrapper {
+    background-color: white; 
+    margin: 4% auto;
+    padding: 40px;
+    width: 70%;
+}
+
+
+
+
+
+
+/* ------------- body copy stuff ----------*/
+
+/* Ethan talking */
+h2{ 
+    color:red;
+    font-size: 30.559px;
+    text-align: left; 
+    font-family: signo, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+   
+    
+}
+
+/* Kris talking */
+h3{
+    font-size: 30.559px;
+    color: #347fc4;
+    font-family: signo, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left; 
+    
+}
+
+
+/* Mike talking */
+h4{
+    font-size: 30.559px;
+    color: #47A025;
+    font-family: signo, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left; 
+    
+
+    
+}
+
+.ethanimage{
+    
+    z-index: -3;
+    width: 25%; 
+    height: auto;
+    padding-left: 50%;
+    margin-top: -170;
+    position: absolute;
+    transform: rotate(15deg);
+}
+
+
+.krisimage{
+   /* border-style: solid;
+    border-width: thick;
+    border-width:9px;
+    border-color: #347fc4;*/
+    z-index: -2;
+    padding-left: 25%;
+    margin-top: -25;
+    width:25%; 
+    height: auto;
+    position: absolute;
+    transform: rotate(-25deg);
+}
+
+
+.mikeimage{
+    
+   /* border-color: #47A025;
+    padding-left: 50%;
+    border-style: solid;
+    border-width: 12px;*/
+    margin-top: -50;
+    padding-left: 35%;
+    z-index: -1;
+    width:30%; 
+    height: auto;
+    position: absolute;
+    transform: rotate(0deg);
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------- excess stuff ------------------------------------------*/
+
+
+
+
+
+/*
+.glitch {
+  position: relative;
+}
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+*/
+
+
+
+
+/* ------------- Glowing Shit  ----------*/
+
+/*
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+*/
+
+
+
+/* ------------- Image Elements  ----------*/
+
+/*    .picturecontainer_1{      /* this changes nothing lol kill me */
+    
+ /*     padding-left:30%; */
+    
+/*  } */
+
+
+
+
+/* -----trying to make the pictures spin -----  */
+
+
+   /* #imagerotate{
+    
+        transform: rotateY(150deg);
+}
+
+*/
+
+
+
+.wrapper {
+    background-color: white; 
+    margin: 4% auto;
+    padding: 40px;
+    width: 70%;
+}

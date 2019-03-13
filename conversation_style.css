@@ -12,7 +12,7 @@ body{
 /* background rectangle */
 
 .square {
-  height: 4000px;
+  height: 6000px;
   width: 400px;
   background-color: #555;
   opacity: 0.05;
@@ -62,16 +62,6 @@ h1{
 }
 
 
-
-.ethandiv_1{
-    margin-top: -22;
-    padding-left: 30%;
-    padding-right: 42%;
-    z-index: 2;
-     transform: rotate(10deg);
-    
-}
-
 .krisdiv_shout1{
     font-size: 60px;
     margin-top: 60;
@@ -82,20 +72,56 @@ h1{
     
 }
 
-.mikediv_1{
-    font-size: 350%;
-    margin-top: -52;
-    padding-left: 65%;
-    padding-right: 10%; 
-    z-index: 3;
-}
-.krisdiv_1{
-    margin-top: -52;
+/* right bubbles*/
+
+.ethandiv_right{
+    margin-top: 0;
     padding-left: 55%;
-    padding-right: 20%;
+    padding-right: 15%;
+    z-index: 2;
+}
+
+.krisdiv_right{
+    margin-top: -30;
+    padding-left: 50%;
+    padding-right: 25%;
     z-index: 2; 
     
 }
+
+.mikediv_right{
+    font-size: 350%;
+    margin-top: -30;
+    padding-left: 70%;
+    padding-right: 5%; 
+    z-index: 3;
+}
+
+/* left bubbles*/
+
+.ethandiv_left{
+    margin-top: 0;
+    padding-left: 10%;
+    padding-right: 65%;
+    z-index: 2;
+}
+
+.krisdiv_left{
+    margin-top: -30;
+    padding-left: 20%;
+    padding-right: 55%;
+    z-index: 2; 
+    
+}
+
+.mikediv_left{
+    font-size: 350%;
+    margin-top: -30;
+    padding-left: 15%;
+    padding-right: 60%; 
+    z-index: 3;
+}
+
 
 
 
@@ -192,6 +218,48 @@ h4{
     transform: rotate(0deg);
 }
 
+
+.ethanimage2{
+    
+    z-index: -3;
+    width: 25%; 
+    height: auto;
+    padding-left: 50%;
+    margin-top: -170;
+    position: absolute;
+    transform: rotate(15deg);
+}
+
+
+.krisimage2{
+   /* border-style: solid;
+    border-width: thick;
+    border-width:9px;
+    border-color: #347fc4;*/
+    z-index: -2;
+    padding-left: 7%;
+    margin-top: -25;
+    width:60%; 
+    height: auto;
+    position: absolute;
+    transform: rotate(-25deg);
+}
+
+
+.mikeimage2{
+    
+   /* border-color: #47A025;
+    padding-left: 50%;
+    border-style: solid;
+    border-width: 12px;*/
+    margin-top: -50;
+    padding-left: 30%;
+    z-index: -1;
+    width:40%; 
+    height: auto;
+    position: absolute;
+    transform: rotate(0deg);
+}
 
 
 

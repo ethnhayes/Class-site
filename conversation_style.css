@@ -12,7 +12,7 @@ body{
 /* background rectangle */
 
 .square {
-  height: 2500px;
+  height: 4000px;
   width: 400px;
   background-color: #555;
   opacity: 0.05;
@@ -23,7 +23,6 @@ body{
   z-index: -100;
 
 }
-
 
 
 /* Title */
@@ -41,21 +40,21 @@ h1{
 }
 
 /* where our speaking bubbles are*/
-.ethandiv_intro{
+.ethandiv_center{
     margin-top: -52;
     padding-left: 35%;
     padding-right: 35%;
     
 }
 
-.krisdiv_intro{
+.krisdiv_center{
     margin-top: -52;
     padding-left: 50%;
     padding-right: 20%;
     
 }
 
-.mikediv_intro{
+.mikediv_center{
     margin-top: -52;
     padding-left: 25%;
     padding-right: 50%; 
@@ -100,16 +99,12 @@ h1{
 
 
 
-
-
-
 .wrapper {
     background-color: white; 
     margin: 4% auto;
     padding: 40px;
     width: 70%;
 }
-
 
 
 

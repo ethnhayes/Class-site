@@ -39,6 +39,49 @@ h1{
     word-spacing: 4px;
 }
 
+
+
+
+/* profiles*/
+.ethanprofile{
+    z-index: -4;
+    width: 5%; 
+    height: auto;
+    padding-left: 27%;
+    margin-top: -80;
+    position: absolute;
+    transform: rotate(10deg);
+    
+}
+
+.krisprofile{
+    z-index: -5;
+    width: 5%; 
+    height: auto;
+    padding-left: 80%;
+    margin-top: 260;
+    position: absolute;
+    transform: rotate(-10deg);
+    
+}
+
+.mikeprofile{
+    z-index: -6;
+    width: 5%; 
+    height: auto;
+    padding-left: 18%;
+    margin-top: 260;
+    position: absolute;
+    transform: rotate(-10deg);
+    
+}
+
+
+
+
+
+
+
 /* where our speaking bubbles are*/
 .ethandiv_center{
     margin-top: -52;
